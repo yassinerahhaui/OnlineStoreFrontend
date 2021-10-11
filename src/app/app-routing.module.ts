@@ -13,6 +13,7 @@ const routes: Routes = [
   {path: 'public', component: PublicComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'shopping-cart', component: ShoppingCartComponent},
+  {path: '', redirectTo: '/public', pathMatch: 'full'},
 ];
 
 @NgModule({
