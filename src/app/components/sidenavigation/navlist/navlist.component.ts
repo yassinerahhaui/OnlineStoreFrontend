@@ -9,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavlistComponent implements OnInit {
   
   items = [
-    {name:"Dashboard",icon:"dashboard",ariaL:""},
-    {name:"Public",icon:"public",ariaL:""},
-    {name:"Store",icon:"store",ariaL:""},
+    {name:"Dashboard",icon:"dashboard",ariaL:"",routerlink: "/dashboard"},
+    {name:"Public",icon:"public",ariaL:"",routerlink:"/public"},
+    {name:"Store",icon:"store",ariaL:"",routerlink:"/store"},
   ] 
   constructor() { }
 
