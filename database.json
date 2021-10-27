@@ -1,0 +1,58 @@
+{
+    "store": [
+        {
+            "user": 1,
+            "title": "title for product-1",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "h_image": "/assets/images/products/product-1.jpg",
+            "price": 150,
+            "old_price": 300,
+            "sale": true,
+            "sale_time_out":"25/10/2021_22:50:25",
+            "stock_out": false,
+            "stock_size": 100,
+            "color_list_solid": [
+                    "red","black","white"
+                ],
+            "color_list_img": [
+                    "/assets/images/products/colors/product-color-red.jpg",
+                    "/assets/images/products/colors/product-color-black.jpg",
+                    "/assets/images/products/colors/product-color-white.jpg"
+                ],
+            "size": [
+                    "XS","S","M","L","XL","XXL","XXXL"
+                ],
+            "published_at": "22/10/2021_08:50:30",
+            "updated_at": [
+                "22/10/2021_08:50:30",
+                "25/10/2021_22:50:25",
+                "30/11/2021_18:55:40"
+                ],
+            "garantie": [
+                    true, "this garantie for 6 mount"
+                ],
+            "category": 1,
+            "verification": false
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "yassine"
+        },
+        {
+            "id":2,
+            "name": "azize"
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "technology"
+        },
+        {
+            "id": 2,
+            "name": "accessoir"
+        }
+    ]
+}
